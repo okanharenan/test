@@ -60,4 +60,4 @@ def valor(codigo):
     else:
         print('Opção inválida')
         codigo = int(input('Entre com o código desejado: '))
-        return valor()
+        return valor(133) == ''
